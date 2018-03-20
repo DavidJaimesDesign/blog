@@ -4,6 +4,7 @@
 s3_id: <%= ENV['BLOG_AWS_ADMIN_ID'] %>
 s3_secret: <%= ENV['BLOG_AWS_ADMIN_SECRET'] %>
 s3_bucket: blog.davidjaimes.tech
+cloudfront_distribution_id: E2DRF09RTWULEH
 
 # set session_token if using temporary credentials with a session token (eg: when assuming a role)
 # session_token: YOUR_AWS_S3_SESSION_TOKEN
